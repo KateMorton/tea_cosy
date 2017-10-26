@@ -5,22 +5,29 @@ body {
   color: seashell;
   font-family: Helvetica;
   font-size: 22px;
+  margin-top: 0;
   opacity: 0.9;
   text-align: center;
 }
 
 div {
   display: block;
+  width: 1200px;
 }
 
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 
 /*Styling for header and nav bar*/
 
-.head {
+.header {
+  background-color: black;
   border-bottom: 1px solid seashell;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   height: 69px;
   position: fixed;
   width: 100%;
@@ -35,6 +42,7 @@ div {
 .main-nav {
     flex-grow: 1;
     text-align: right;
+    padding-right: 10px;
 }
 
 span {
@@ -43,4 +51,23 @@ span {
 
 a {
   color: seashell;
+}
+
+/*Styling for main feature image and mission statement text*/
+
+.feature {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  padding-top: 70px;
+  width: 1200px;
+}
+
+.mission {
+  display: block;
+  background-color: black;
+  width: 1200px;
+}
+
+h2, h4 {
+  padding: 10px;
 }
