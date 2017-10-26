@@ -42,7 +42,7 @@ div {
 .main-nav {
     flex-grow: 1;
     text-align: right;
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
 span {
@@ -70,4 +70,33 @@ a {
 
 h2, h4 {
   padding: 10px;
+  margin: 0;
+}
+
+/*Styling for Tea of the Month section*/
+
+.middle {
+  width: 1000px;
+}
+
+.tea {
+  padding-top: 70px;
+}
+
+.image {
+  margin: 5px;
+  width: 320px;
+}
+
+.image img {
+  display: block;
+  height: 200px;
+  margin: 10px;
+}
+
+.caption {
+  padding: 5px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
 }
