@@ -36,13 +36,13 @@ div {
 
 .logo {
   height: 50px;
-  padding-left: 10px;
+  margin-left: 10px;
 }
 
 .main-nav {
-    flex-grow: 1;
-    text-align: right;
-    margin-right: 10px;
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 10px;
 }
 
 span {
@@ -51,6 +51,7 @@ span {
 
 a {
   color: seashell;
+  text-decoration: underline;
 }
 
 /*Styling for main feature image and mission statement text*/
@@ -58,14 +59,12 @@ a {
 .feature {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
-  padding-top: 70px;
+  margin-top: 70px;
   width: 1200px;
 }
 
 .mission {
-  display: block;
   background-color: black;
-  width: 1200px;
 }
 
 h2, h4 {
@@ -77,10 +76,7 @@ h2, h4 {
 
 .middle {
   width: 1000px;
-}
-
-.tea {
-  padding-top: 70px;
+  margin-top: 70px;
 }
 
 .image {
@@ -89,7 +85,6 @@ h2, h4 {
 }
 
 .image img {
-  display: block;
   height: 200px;
   margin: 10px;
 }
@@ -99,4 +94,34 @@ h2, h4 {
   font-weight: bold;
   display: block;
   text-align: center;
+}
+
+/*Styling for locations section. */
+
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-position: top;
+  height: 500px;
+  padding-top: 80px;
+  width: 1200px;
+  margin-top: 70px;
+}
+
+.addresses{
+  width: 340px;
+  margin-top: 10px;
+}
+
+.addr {
+  width: 300px;
+  background-color: black;
+  padding: 20px 0;
+  opacity: 1;
+}
+
+/*footer styling*/
+
+footer p {
+  text-align: left;
+  margin-left: 20px;
 }
